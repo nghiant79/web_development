@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Store</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/flex.css">
+  <link rel="stylesheet" href="styles/grid.css">
+  <link rel="icon" type="image/x-icon" href="/images/icon/favicon.png">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+        <img width="24" src="images/icon/menu-expand.png" alt="">
+      </span>
+      <a href="#" class="logo">Dog Store</a>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="index.html" class="nav-links">Home</a>
+        </li>
+        <li>
+          <a href="pet.html" class="nav-links">Products</a>
+        </li>
+        <li>
+          <a href="gallery.html" class="nav-links">Gallery</a>
+        </li>
+        <li>
+          <a href="contact.html" class="nav-links active">Contact Us</a>
+        </li>
+        <li>
+          <a href="blog.html" class="nav-links">Blog</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="banner">
+    <img src="images/banner/cute.avif" alt="">
+  </div>
+
+
+  <div id="form-main">
+    <div id="form-div">
+      <form class="form" id="contactForm" action="#">
+        <h2>Contact</h2>
+
+        <p class="name">
+          <input name="name" type="text" class="feedback-input"
+            placeholder="Name *" id="name" require/>
+        </p>
+  
+        <p class="email">
+          <input name="email" type="text" class="feedback-input" id="email"
+            placeholder="Email *" required/>
+        </p>
+        <p class="title">
+          <input name="title" type="text" class="feedback-input" id="title"
+            placeholder="Title *" required/>
+        </p>
+  
+        <p class="text">
+          <textarea name="text" class="feedback-input" id="message"
+            placeholder="Message"></textarea>
+        </p>
+  
+  
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <input type="submit" value="SEND" id="button-blue" />
+          <div>
+            <button class="footer__btn" type="reset">Reset</button>
+          </div>
+        </div>
+        
+      </form>
+    </div>
+  </div>
+  <br>
+
+  <div class="banner" style="margin-top: 24px;">
+    <video style="max-width: 1080px; width: 100%; height: auto;" controls>
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="banner">
+    <img src="images/banner/end.png" alt="">
+  </div>
+
+  <footer class="footer">
+    <div class="footer__addr">
+      <h1 class="footer__logo">Something</h1>
+
+      <h2>Contact</h2>
+  
+      <address>
+        Nghia Nguyen - Illinois State University<br>
+  
+        <a class="footer__btn" href="mailto:nghianguyen@gmail.com">Email Us</a>
+      </address>
+    </div>
+
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">Media</h2>
+
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Online</a>
+          </li>
+
+          <li>
+            <a href="#">Print</a>
+          </li>
+
+          <li>
+            <a href="#">Alternative Ads</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav__item nav__item--extra">
+        <h2 class="nav__title">Technology</h2>
+
+        <ul class="nav__ul nav__ul--extra">
+          <li>
+            <a href="#">Hardware Design</a>
+          </li>
+
+          <li>
+            <a href="#">Software Design</a>
+          </li>
+
+          <li>
+            <a href="#">Digital Signage</a>
+          </li>
+
+          <li>
+            <a href="#">Automation</a>
+          </li>
+
+          <li>
+            <a href="#">Artificial Intelligence</a>
+          </li>
+
+          <li>
+            <a href="#">IoT</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav__item">
+        <h2 class="nav__title">Legal</h2>
+
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#">Terms of Use</a>
+          </li>
+
+          <li>
+            <a href="#">Sitemap</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="legal">
+      <p>&copy; 2023 Something. All rights reserved.</p>
+
+      <div class="legal__links">
+        <span>Made with <span class="heart">♥</span> from ISU</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
